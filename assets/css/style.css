@@ -664,9 +664,6 @@ header {
 .section-plans .button-choose:hover{
     background-color: #B28756;
 }
-.section-options--area{
-    margin: auto;
-}
 
 .section-options--area .section-body{
     margin-top: 30px;
@@ -751,8 +748,7 @@ header {
 .section-work-option{
     flex: 1;
     text-align: center;
-    padding: 20px;
-
+    padding: 10px;
 }
 
 .section-work-option .section-work-option--title{
@@ -770,19 +766,29 @@ header {
     background-color: #999;
 }
 
+.section-work-option .section-work-option--titleandtext{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
 .section-work-option .section-work-option--title2 {
+    flex: 1;
     margin-top: 10px;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 19px;
+    margin-bottom: -50px;
 }
 
 .section-work-option .section-work-option--text {
-    margin-top: 40px;
+    flex: 1;
     font-size: 13px;
     color: #999;
     line-height: 25px;
-    bottom: 0px;
 }
+
+
+
+
 
 .superlight2{
     border-bottom: 1px solid #d9d9d9;
@@ -803,7 +809,7 @@ header {
     align-items: center;
     text-transform: uppercase;
     text-decoration: none;
-    color: #ccc;
+    color: #bbb;
     font-size: 15px;
 }
 
@@ -856,8 +862,73 @@ header {
     background-color: #9b2a22;
 }
 .superlight2 .share-icons .share-socials-social p{
-    color: #ccc;
-    font-weight: 600;
+    color: #bbb;
+    font-weight: 700;
     margin-left: 5px;
     font-size: 8px;
+}
+
+.default.light .formarea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-body form{
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+
+.section-body form{
+    display: flex;
+    flex-direction: column;
+}
+.section-body form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #999;
+    caret-color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #777;
+}
+
+.section-body form input:focus{
+    outline: none;
+}
+
+.section-body form input::placeholder{
+    color: #aaa;
+    text-transform: uppercase;
+}
+
+.section-body form .nameemail{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.section-body form .nameemail input{
+    flex: 1;
+}
+form .nameemail input:first-child{
+    margin-right: 30px;
+}
+
+.section-body form .subject{
+    margin-bottom: 50px;
+}
+
+.section-body form .button-send{
+    margin: auto;
+    display: inline-block;
+    background-color: #B28756;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 50px;
+    border-radius: 20px;
 }
