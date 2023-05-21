@@ -63,6 +63,7 @@ header {
     display: flex;
     align-items: center;
     border-bottom: 5px solid #000;
+    transition: border-bottom 0.3s linear, color 0.3s linear;
 }
 
 .menu li a:hover,
@@ -70,6 +71,7 @@ header {
     border-bottom: 5px solid #B28756;
     color: #ccc;
 }
+
 
 .menu li a:focus{
     outline: none;
@@ -308,6 +310,7 @@ header {
     font-size: 13px;
     padding: 15px 20px 15px 20px;
     border-bottom: 3px solid #eee;
+    transition: border-bottom 0.3s linear;
 }
 
 .section-projects--filters li a:hover,
@@ -659,6 +662,7 @@ header {
     padding: 10px 30px;
     margin-top: 15px;
     border-radius: 20px;
+    transition: background-color 0.3s linear;
 }
 
 .section-plans .button-choose:hover{
@@ -785,7 +789,6 @@ header {
     color: #999;
     line-height: 25px;
 }
-
 
 
 
@@ -931,4 +934,142 @@ form .nameemail input:first-child{
     padding: 10px 30px;
     margin-top: 50px;
     border-radius: 20px;
+}
+
+
+.section-map{
+    background-image: url('/assets/media/mapa.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-map--area{
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.section-map--info{
+    width: 50%;
+    padding: 30px;
+    background-color: #ffffff;
+    color: #000000;
+}
+.section-map--info-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.section-map--info-item i{
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a6a6a6;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+footer .default.dark{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer .default.dark .fa-solid.fa-chevron-up{
+    position: absolute;
+    text-align: center;
+    margin-top: -60px;
+    left: 120px;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 35px;
+    color: #fff;
+    background-color: #B28756;
+    cursor: pointer;
+}
+
+
+.footer-area{
+    display: flex;
+    color: #747474;
+}
+.footer-area--social,
+.footer-area--text,
+.footer-area--subscribe{
+    flex: 1;
+    padding: 10px;
+}
+.footer-area--social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.footer-area--social-icons{
+    display: flex;
+}
+.footer-area--social-icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 3px;
+    background-color: #b7b7b7;
+    color: #ffffff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    transition: background-color 0.3s linear;
+}
+
+.footer-area--social-icons a i{
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer-area--social-icons a:hover{
+    background-color: #B28756;
+}
+
+.footer-area--text{
+    margin-right: 10px;
+}
+.footer-area--subscribe{
+    background-color: #323232;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.footer-area--subscribe form{
+    width: 70%;
+}
+
+.footer-area--subscribe form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #999;
+    caret-color: #000000;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #777;
+}
+
+.footer-area--subscribe form input{
+    color: #fff;
+    caret-color: #ffffff;
+}
+
+.footer-area--subscribe form input::placeholder{
+    text-align: center;
+}
+
+.footer-area--subscribe form .button-send{
+    margin-top: 30px;
 }
