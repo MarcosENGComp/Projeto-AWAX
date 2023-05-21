@@ -1743,4 +1743,10 @@ footer .default.dark .arrow2 .fa-solid.fa-chevron-up {
         font-size: 30px;
     }
 
+    .footer-area--social p{
+        margin-top: 10px;
+        font-size: 10px;
+        text-align: center;
+    }
+
 }
