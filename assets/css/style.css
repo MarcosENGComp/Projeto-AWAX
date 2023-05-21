@@ -30,11 +30,16 @@ header {
     width: 100px;
 }
 
-.logoimg {
+.logoimg{
+    background-color: #B28756;
     width: 80px;
     height: 80px;
-    background-color: #B28756;
     border-radius: 50%;
+    overflow: hidden;
+}
+.logoimg img{
+    width: 80px;
+    height: 80px;
 }
 
 .menu {
@@ -282,17 +287,19 @@ nav {
     display: flex;
     justify-content: center;
 }
-.section-aboutus--right-content{
+
+.section-aboutus--right-content {
     width: 450px;
     height: inherit;
 }
+
 .section-aboutus--right img {
     width: inherit;
     height: inherit;
     box-shadow: 0px 5px 10px black;
 }
 
-.section-aboutus--right-photoinfo{
+.section-aboutus--right-photoinfo {
     display: none;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.7);
@@ -303,14 +310,14 @@ nav {
     color: #fff;
 }
 
-.section-aboutus--right-photoinfo h5{
+.section-aboutus--right-photoinfo h5 {
     display: flex;
     align-items: center;
     font-size: 18px;
     font-weight: 500;
 }
 
-.section-aboutus--right-photoinfo a{
+.section-aboutus--right-photoinfo a {
     text-decoration: none;
     color: #F7F7F7;
     font-size: 35px;
@@ -318,7 +325,7 @@ nav {
     margin-right: 5px;
 }
 
-.section-aboutus--right-content:hover .section-aboutus--right-photoinfo{
+.section-aboutus--right-content:hover .section-aboutus--right-photoinfo {
     display: flex;
 }
 
@@ -1506,13 +1513,15 @@ footer .default.dark .arrow2 .fa-solid.fa-chevron-up {
         margin-right: 30px;
     }
 
-    .section-aboutus--right-content{
+    .section-aboutus--right-content {
         width: 100%;
         position: relative;
     }
-    .section-aboutus--right-content .section-aboutus--right-photoinfo{
+
+    .section-aboutus--right-content .section-aboutus--right-photoinfo {
         width: 100%
     }
+
     .section-aboutus--right-content img {
         width: 100%;
     }
@@ -1554,6 +1563,7 @@ footer .default.dark .arrow2 .fa-solid.fa-chevron-up {
         display: block;
         width: 100%;
         transition: color 0.3s linear;
+        border: none
     }
 
     .section-projects--filters li:first-child {
@@ -1563,6 +1573,7 @@ footer .default.dark .arrow2 .fa-solid.fa-chevron-up {
 
     .section-projects--filters li a:hover {
         color: #B28756;
+        border: none;
     }
 
     .section-team {
