@@ -1049,7 +1049,7 @@ form .nameemail input:first-child {
 
 
 .section-map {
-    background-image: url('assets/media/mapa.jpg');
+    background-image: url("..media/mapa.jpg");
     background-size: cover;
     background-position: center;
     padding-top: 30px;
