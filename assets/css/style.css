@@ -476,7 +476,7 @@ nav {
 
 
 .bg-team {
-    background-image: url('./assets/img/bg.jpg');
+    background-image: url("/assets/img/bg.jpg");
     background-size: cover;
     background-position: center;
     padding: 0;
@@ -1049,7 +1049,7 @@ form .nameemail input:first-child {
 
 
 .section-map {
-    background-image: url('/assets/media/mapa.jpg');
+    background-image: url("/assets/img/mapa.jpg");
     background-size: cover;
     background-position: center;
     padding-top: 30px;
