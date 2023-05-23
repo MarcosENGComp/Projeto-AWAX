@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     caret-color: transparent;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -49,7 +50,8 @@ header {
     justify-content: flex-end;
 }
 
-.icon-menu {
+.icon-menu a{
+    text-decoration: none;
     display: none;
     text-align: center;
     margin-right: 20px;
@@ -58,7 +60,6 @@ header {
     font-size: 25px;
     color: #fff;
     background-color: #B28756;
-    cursor: pointer;
 }
 
 .fa-solid.fa-bars {
@@ -243,7 +244,8 @@ nav {
     color: #ccc;
 }
 
-.icon-principal {
+.icon-principal a{
+    text-decoration: none;
     position: absolute;
     text-align: center;
     margin-top: -40px;
@@ -1094,7 +1096,8 @@ footer .default.dark {
     padding-bottom: 30px;
 }
 
-footer .default.dark .arrow1 .fa-solid.fa-chevron-up {
+footer .default.dark .arrow1 a {
+    text-decoration: none;
     position: absolute;
     text-align: center;
     margin-top: -60px;
@@ -1107,7 +1110,8 @@ footer .default.dark .arrow1 .fa-solid.fa-chevron-up {
     cursor: pointer;
 }
 
-footer .default.dark .arrow2 .fa-solid.fa-chevron-up {
+footer .default.dark .arrow2 a {
+    text-decoration: none;
     display: none;
     position: absolute;
     text-align: center;
@@ -1220,7 +1224,7 @@ footer .default.dark .arrow2 .fa-solid.fa-chevron-up {
         margin-left: 30px;
     }
 
-    .icon-menu {
+    .icon-menu a{
         display: flex;
     }
 
@@ -1260,7 +1264,7 @@ footer .default.dark .arrow2 .fa-solid.fa-chevron-up {
         color: #B28756
     }
 
-    .icon-principal {
+    .icon-principal a{
         display: none;
     }
 
@@ -1392,11 +1396,11 @@ footer .default.dark .arrow2 .fa-solid.fa-chevron-up {
         padding-bottom: 10px;
     }
 
-    footer .default.dark .arrow1 .fa-solid.fa-chevron-up {
+    footer .default.dark .arrow1 a {
         display: none;
     }
 
-    footer .default.dark .arrow2 .fa-solid.fa-chevron-up {
+    footer .default.dark .arrow2 a {
         display: block;
         margin-top: -40px;
         padding: 10px;
@@ -1449,7 +1453,7 @@ footer .default.dark .arrow2 .fa-solid.fa-chevron-up {
         margin-left: 30px;
     }
 
-    .icon-menu {
+    .icon-menu a{
         display: flex;
     }
 
@@ -1489,7 +1493,7 @@ footer .default.dark .arrow2 .fa-solid.fa-chevron-up {
         color: #B28756
     }
 
-    .icon-principal {
+    .icon-principal a{
         display: none;
     }
 
@@ -1734,11 +1738,11 @@ footer .default.dark .arrow2 .fa-solid.fa-chevron-up {
         font-size: 17px;
     }
 
-    footer .default.dark .arrow1 .fa-solid.fa-chevron-up {
+    footer .default.dark .arrow1 a {
         display: none;
     }
 
-    footer .default.dark .arrow2 .fa-solid.fa-chevron-up {
+    footer .default.dark .arrow2 a {
         display: block;
         margin-top: -40px;
         padding: 10px;
